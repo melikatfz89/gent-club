@@ -1,0 +1,100 @@
+body{
+    margin: 0 auto;
+}
+.father_header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/single-project-page-02-img1.jpg");
+    width:99%;
+    height:820px;
+    background-repeat: no-repeat;
+    
+    
+}
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:start;
+    margin-top: 10px;
+}
+.main_logo{
+    
+}
+.main_menu{
+    
+    
+}
+.main_menu> ul> li{
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding-right:50px;
+    list-style: none;
+}
+.main_menu> ul> li> a{
+    color:#fff;
+    text-decoration: none;
+    font-size:17px;
+}
+.imag_G{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding:60px 0px;
+}
+.p_header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.father_sudo{
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    align-items: end;
+}
+.sudocode_red{
+    content: "";
+    font-size: 0;
+    width: 1px;
+    height: 60px;
+    background-color: #ff6437;
+}
+.section_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.section_2> img{
+    margin-right: 20px;
+}
+.p_section2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:500px;
+    margin-left: 20px;
+}
+.p_gents{
+    font-size: 35px;
+}
+.p_section2> div{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+.p_section2> div> img{
+    margin-top: 24px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 15px;
+}
+.section_2> div h4{
+     color: gray;
+     font-size: 20px;
+     text-decoration: underline;
+     text-decoration-color: gray;
+}
