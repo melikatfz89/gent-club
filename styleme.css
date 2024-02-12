@@ -84,13 +84,14 @@ body{
 .p_section2> div{
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
 }
 .p_section2> div> img{
     margin-top: 24px;
-    padding: 10px;
-    background-color: gray;
-    border-radius: 15px;
+    margin-right: 15px;
+    padding: 10px 12px 10px 8px;
+    background-color: whitesmoke;
+    border-radius: 35px;
+    border: 1px solid gray;
 }
 .section_2> div h4{
      color: gray;
