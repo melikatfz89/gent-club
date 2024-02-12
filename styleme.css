@@ -99,3 +99,19 @@ body{
      text-decoration: underline;
      text-decoration-color: gray;
 }
+.date_section{
+    display: flex;
+    justify-content: center;
+}
+.ul_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 1200px;
+    height: 70px;
+}
+.li_date{
+    font-size: 10px;
+    list-style: none;
+}
